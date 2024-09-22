@@ -1,0 +1,335 @@
+body{
+    background-color:azure;
+}
+.container{
+    margin: 100px 0 0 200px;
+    width: 65%;
+    height:450px;
+    display:flex;
+    justify-content: center;
+    gap: 10px;
+}
+.container img{
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgba (255,255,255,0.6);
+    transition: all ease-in-out 0.7s;
+
+}
+
+.container img:hover{
+    width: 25%;
+}
+h1{
+    margin: 50px 0 0 -6px;
+    text-align: center;
+    font-size: 50px;
+    font-family:"Montserrat", sans-serif;
+    line-height: 10px;
+    color: rgb(43, 42, 42);
+}
+h2{
+    margin: 30px 0 0 -6px;
+    text-align: center;
+    font-size: 16px;
+    color:rgb(175, 172, 172);
+    font-family: 'Courier New', Courier, monospace;
+}
+button{
+    margin: 30px 0 0 500px;
+    border-radius: 5px;
+    background-color: lightgrey;
+    border-color: lightgrey;
+    height:30px;
+    width: 20%;
+    font-family:"Montserrat", sans-serif;
+    cursor: pointer;
+    font-size: 15px;
+}
+.about{
+    h3{
+        margin: 30px 0 0 3px;
+        font-size: 30px;
+        color:rgb(43, 42, 42);
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+    p{
+        margin: 30px 0 0 3px;
+        font-size: 25px;
+        color:rgb(43, 42, 42);
+        font-family:Georgia, 'Times New Roman', Times, serif;  
+    }
+}
+
+.skills{
+    h3{
+        margin: 30px 0 0 3px;
+        font-size: 30px;
+        color:rgb(43, 42, 42);
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+    .social{
+        margin:40px 0 0 3px;
+        font-size: 25px;
+        color:rgb(43, 42, 42);
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+    .box1{
+        width:95%;
+        margin:30px 0 0 3px;
+        background-color: rgb(90, 87, 87);
+        text-align: center;
+        color: aliceblue;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+    .photo{
+        margin:50px 0 0 3px;
+        font-size: 25px;
+        color:rgb(43, 42, 42);
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+    .box2{
+        width:90%;
+        margin:30px 0 0 3px;
+        background-color: rgb(90, 87, 87);
+        text-align: center;
+        color: aliceblue;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+    .programming{
+        margin:40px 0 0 3px;
+        font-size: 25px;
+        color:rgb(43, 42, 42);
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+    .box3{
+        width:80%;
+        margin:30px 0 0 3px;
+        background-color: rgb(90, 87, 87);
+        text-align: center;
+        color: aliceblue;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+}
+.education{
+    h3{
+        margin: 30px 0 0 3px;
+        font-size: 30px;
+        color:rgb(43, 42, 42);
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+    p{
+        margin: 30px 0 0 3px;
+        font-size: 25px;
+        color:rgb(43, 42, 42);
+        font-family:Georgia, 'Times New Roman', Times, serif;  
+    }
+    ul{
+        margin: 30px 0 0 3px;
+        font-size: 25px;
+        font-family:Georgia, 'Times New Roman', Times, serif; 
+    }
+
+}
+.knowledge{
+    h3{
+        margin:70px 0 0 3px;
+        font-size: 30px;
+        color:rgb(43, 42, 42);
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+    p{
+        margin: 30px 0 0 3px;
+        font-size: 25px;
+        color:rgb(43, 42, 42);
+        font-family:Georgia, 'Times New Roman', Times, serif;  
+    }
+
+    
+}
+.languagesknown{
+    h3{
+        margin:70px 0 0 3px;
+        font-size: 30px;
+        color:rgb(43, 42, 42);
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+    p{
+        margin: 30px 0 0 3px;
+        font-size: 25px;
+        color:rgb(43, 42, 42);
+        font-family:Georgia, 'Times New Roman', Times, serif;  
+    }
+    .langubox {
+        margin: 30px 0 0 3px;
+        display: flex;
+        justify-content: space-around; 
+        flex-wrap: wrap; 
+    }
+    
+    .box {
+        margin: 30px 0 0 3px;
+        color:rgb(43, 42, 42);
+        font-family:Georgia, 'Times New Roman', Times, serif;  
+        background-color: rgb(238, 229, 229);
+        border: 2px solid #ddd;
+        border-color:rgb(43, 42, 42) ; 
+        border-radius: 90px; 
+        box-shadow: 0 4px 8px #0000001a;
+        padding: 20px;
+        text-align: center;
+        transition: transform 0.2s;
+    }
+
+}
+.projects{
+    h3{
+        margin:70px 0 0 3px;
+        font-size: 30px;
+        color:rgb(43, 42, 42);
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+    p{
+        margin: 30px 0 0 3px;
+        font-size: 20px;
+        color:rgb(43, 42, 42);
+        font-family:Georgia, 'Times New Roman', Times, serif;  
+    }
+    .button {
+        display: inline-block; 
+        margin: 50px 0 0 30px;
+        color:rgb(43, 42, 42);
+        font-family:Georgia, 'Times New Roman', Times, serif;  
+        background-color: rgb(238, 229, 229);
+        border: 2px solid rgb(222, 222, 222);
+        border-color:rgb(210, 202, 202); ; 
+        border-radius: 90px; 
+        box-shadow: 0 4px 8px #0000001a;
+        text-decoration: none;
+        padding: 20px;
+        width:15%;
+        text-align: center;
+        transition: transform 0.2s;
+    }
+    
+    .button:hover {
+        transform: scale(1.05); 
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+    }
+}
+.photography{
+    h3{
+        margin:70px 0 0 3px;
+        font-size: 30px;
+        color:rgb(43, 42, 42);
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+    p{
+        margin: 30px 0 0 3px;
+        font-size: 20px;
+        color:rgb(43, 42, 42);
+        font-family:Georgia, 'Times New Roman', Times, serif;  
+    }  
+    .button {
+        display: inline-block; 
+        margin: 50px 0 0 10px;
+        color:black;
+        font-family:Georgia, 'Times New Roman', Times, serif;  
+        background-color: rgb(238, 229, 229);
+        border: 2px solid rgb(238, 229, 229);
+        border-radius: 30px; 
+        box-shadow: 0 4px 8px #0000001a;
+        text-decoration: none;
+        padding: 20px;
+        width:20%;
+        font-size:13px;
+        text-align: center;
+        transition: transform 0.2s;
+    }
+    
+    .button:hover {
+        transform: scale(1.05); 
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+    }
+}
+.ref{
+    h3{
+        margin:70px 0 0 3px;
+        font-size: 30px;
+        color:rgb(43, 42, 42);
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+    .profile1{
+        margin: 80px 0 0 200px;
+        height:80px;
+        width:0%;
+        display:flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .profile2{
+        margin: 80px 0 0 200px;
+        height:80px;
+        width:0%;
+        display:flex;
+        justify-content: center;
+        gap: 10px;
+        
+
+    }
+    .profile3{
+        margin: 80px 0 0 200px;
+        height:80px;
+        width:0%;
+        display:flex;
+        justify-content: center;
+        gap: 10px;
+
+    }
+    .font1{
+        margin: 30px 0 0 3px;
+        font-size: 20px;
+        color:rgb(43, 42, 42);
+        font-family:Georgia, 'Times New Roman', Times, serif;  
+    }    
+}
+.contact{
+    h3{
+        margin:70px 0 0 3px;
+        font-size: 30px;
+        color:rgb(43, 42, 42);
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+    p{
+        margin: 20px 0 0 3px;
+        font-size: 20px;
+        color:rgb(43, 42, 42);
+        font-family:Georgia, 'Times New Roman', Times, serif;  
+    }
+    .button {
+        display: inline-block; 
+        margin: 50px 0 0 30px;
+        color:black;
+        font-family:Georgia, 'Times New Roman', Times, serif;  
+        background-color: rgb(182, 182, 182);
+        border: 2px solid rgb(182, 182, 182); 
+        border-radius: 3px; 
+        box-shadow: 0 4px 8px #0000001a;
+        text-decoration: none;
+        padding: 20px;
+        width:10%;
+        font-size:13px;
+        text-align: center;
+        transition: transform 0.2s;
+    }
+    
+    .button:hover {
+        transform: scale(1.05); 
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+    }
+}
+
+
